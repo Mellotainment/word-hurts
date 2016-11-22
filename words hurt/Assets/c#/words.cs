@@ -6,14 +6,16 @@ public class words : MonoBehaviour {
 
 	public AudioClip YouStink;  
 		 
-	void Start ()   
+	void Start ()
 	{
 		
-		GetComponent<AudioSource> ().clip = YouStink;
-	}        
+	}
 
 	void OnTriggerEnter ()  
 	{
+			GetComponent<AudioSource> ().clip = YouStink;
+		      
 		GetComponent<AudioSource> ().Play ();
+
 	}
 }
