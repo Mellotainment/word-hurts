@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/words hurt.unity
+- path: Assets/WordsHurt.unity
   isLoaded: 1
   isActive: 1

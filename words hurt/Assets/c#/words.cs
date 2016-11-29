@@ -13,9 +13,14 @@ public class words : MonoBehaviour {
 
 	void OnTriggerEnter ()  
 	{
-			GetComponent<AudioSource> ().clip = YouStink;
+		GetComponent<AudioSource> ().clip = YouStink;
 		      
 		GetComponent<AudioSource> ().Play ();
 
+	}
+	//monster moving forward
+	void Update(){
+		//monster moving forward
+		transform.position = Vector3.Lerp(transform.position, transform.position + new Vector3(1,0,0), 0.2f);
 	}
 }

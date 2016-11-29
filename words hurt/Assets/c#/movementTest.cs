@@ -19,10 +19,10 @@ public class movementTest : MonoBehaviour {
 			transform.position += new Vector3 (1, 0, 0);
 		}
 		if (Input.GetKeyDown (KeyCode.LeftArrow)) {
-			transform.position += new Vector3 (0,0,-1);
+			transform.position += new Vector3 (0,0,-5);
 		}
 		if (Input.GetKeyDown (KeyCode.RightArrow)) {
-			transform.position += new Vector3 (0, 0, 1);
+			transform.position += new Vector3 (0, 0, 5);
 		}
 	}
 }
