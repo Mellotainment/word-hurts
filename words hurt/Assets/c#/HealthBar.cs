@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-//N3k N3k En help with this code
+//N3k N3k En help with this code(https://www.youtube.com/watch?v=9W0xLonwbLo&t=662s)
 
 public class HealthBar : MonoBehaviour {
 
